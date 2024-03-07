@@ -5,6 +5,19 @@
 */
 
 @media (prefers-color-scheme: light) {
+  --accent-color: #ff8dcb;
+  --background-color: #fff1f7;
+  --font-title-decorated-color: #ffc2e6;
+  --h2-font-color: var(--font-main-color);
+  --font-main-color: #353430;
+  --content-text-color: #353430;
+  /*images*/
+  --background-image: url("../images/cover-image-light.png");
+
+  .theme_light .hidden__light-theme {
+    opacity: 0;
+  }
+
 }
 
 :root {

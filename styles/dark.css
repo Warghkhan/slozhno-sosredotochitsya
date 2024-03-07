@@ -5,15 +5,15 @@
 */
 
 @media (prefers-color-scheme: dark) {
-  /*
-  .bulb__block {
-    opacity: 1;
-  }
+  --accent-color: #ff0070;
+  --background-color: #000028;
+  --font-title-decorated-color: #db00ff;
+  --h2-font-color: var(--accent-color);
+  --font-main-color: #000028;
+  --content-text-color: #f1b2ce;
 
-  .bottom__rec {
-    opacity: 1;
-  }
-  */
+  /*images*/
+  --background-image: url("../images/cover-image-dark.png");
 }
 
 :root {
