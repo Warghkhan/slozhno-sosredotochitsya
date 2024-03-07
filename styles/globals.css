@@ -20,6 +20,7 @@ h5,
 h6,
 p {
   margin: 0;
+  /*font-size: 18px;*/
 }
 
 ul {
@@ -39,4 +40,52 @@ a {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  padding-block: 0;
+  padding-inline: 0;
+}
+
+button {
+  background-color: transparent;
+  outline-style: none;
+  border: none;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: lowercase;
+  color: var(--accent-color);
+}
+
+button:hover {
+  outline: 1px solid var(--accent-color);
+}
+
+button:focus {
+  border-bottom: 1px solid var(--accent-color);
+}
+
+a,
+a:link {
+  outline: none;
+  text-decoration: none;
+  text-shadow: 2px 2px 0 var(--accent-color);
+}
+a:hover {
+  border-bottom: 1px solid var(--content-text-color);
+}
+a:focus {
+  line-height: 0;
+  outline: 1px solid var(--content-text-color);
+}
+
+h2 {
+  color: var(--h2-font-color);
+}
+
+p {
+  color: var(--content-text-color);
+  font-family: var(--main-font), sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23.4px;
+  letter-spacing: 0%;
+  text-align: left;
 }
