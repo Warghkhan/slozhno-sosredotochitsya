@@ -211,6 +211,7 @@
   width: 100%;
   display: grid;
   gap: 10px;
+  margin-bottom: 60px;
 }
 
 .images__list {
@@ -245,9 +246,10 @@
 .image__list-item:nth-of-type(3) {
   grid-row: span 2;
 }
+/*
 .image__list-item:nth-of-type(4) {
 }
-
+*/
 .image__list-item:nth-of-type(5) {
   grid-column: span 2;
 }
@@ -260,12 +262,12 @@ body {
   display: grid;
   position: relative;
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
 }
 
 .footer__content {
   height: 100%;
-  margin: 98px 0 0 0;
+  margin: 0;
   text-align: center;
   align-items: center;
 }
@@ -274,7 +276,7 @@ body {
   display: grid;
   /*border: 1px solid snow;*/
   width: 100%;
-  height: 108vh;
+  height: 100vh;
   position: absolute;
   /*top: 60vh;*/
   align-items: center;
@@ -287,7 +289,7 @@ body {
   border-right: 1px solid var(--accent-color);
   width: 25px;
   height: 25px;
-  top: 80px;
+  top: 20px;
   right: 20px;
 }
 .footer__decorated::before {
