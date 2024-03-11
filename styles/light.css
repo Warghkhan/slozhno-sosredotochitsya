@@ -6,7 +6,6 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-
     --accent-color: #ff8dcb;
     --background-color: #fff1f7;
     --font-title-decorated-color: #ffc2e6;
@@ -19,12 +18,10 @@
 
   .hidden__light-theme {
     opacity: 0;
-    
   }
 }
 
 :root.theme-light {
-  
   --accent-color: #ff8dcb;
   --background-color: #fff1f7;
   --font-title-decorated-color: #ffc2e6;
@@ -33,11 +30,7 @@
   --content-text-color: #353430;
   /*images*/
   --background-image: url("../images/cover-image-light.png");
-  
 }
-
-
-
 
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.

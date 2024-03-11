@@ -26,11 +26,9 @@
   .hidden__light-theme {
     opacity: 1;
   }
-  
 }
 
-:root.theme-dark { 
-  
+:root.theme-dark {
   --accent-color: #ff0070;
   --background-color: #000028;
   --font-title-decorated-color: #db00ff;
@@ -40,7 +38,6 @@
 
   /*images*/
   --background-image: url("../images/cover-image-dark.png");
-  
 }
 
 .page.theme_dark {

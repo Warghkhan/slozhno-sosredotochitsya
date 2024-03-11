@@ -124,11 +124,7 @@
   margin-block-end: 114px;
   */
   margin: 114px 0 286px 495px;
-  
-
 }
-
-
 
 .header__theme-menu-button_active {
   pointer-events: none;
@@ -390,4 +386,3 @@ main {
 
 }
 */
-
