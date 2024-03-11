@@ -5,5 +5,22 @@
 
 :root {
   --accent-color: #ff0070;
+  --background-color: #000028;
+  --font-title-decorated-color: #db00ff;
+  --h2-font-color: var(--accent-color);
+  --font-main-color: #000028;
+  --content-text-color: #f1b2ce;
+  --background-image: url("../images/cover-image-dark.png");
+
+
   --main-font: IBM Plex Mono;
+  
 }
+
+/*
+
+.hidden__light-theme {
+  opacity: 1;
+}
+
+*/

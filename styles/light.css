@@ -5,11 +5,8 @@
 */
 
 @media (prefers-color-scheme: light) {
-  .page.theme_light {
-    /* сохраните этот селектор в приведённом виде.
-      Так стили написанные ниже будут иметь больший вес,
-      чем стили в медиазапросе предпочтений пользователя
-    */
+  :root {
+
     --accent-color: #ff8dcb;
     --background-color: #fff1f7;
     --font-title-decorated-color: #ffc2e6;
@@ -20,12 +17,14 @@
     --background-image: url("../images/cover-image-light.png");
   }
 
-  .theme_light .hidden__light-theme {
+  .hidden__light-theme {
     opacity: 0;
+    
   }
 }
 
-:root {
+:root.theme-light {
+  
   --accent-color: #ff8dcb;
   --background-color: #fff1f7;
   --font-title-decorated-color: #ffc2e6;
@@ -34,7 +33,11 @@
   --content-text-color: #353430;
   /*images*/
   --background-image: url("../images/cover-image-light.png");
+  
 }
+
+
+
 
 .page.theme_light {
   /* сохраните этот селектор в приведённом виде.
@@ -51,6 +54,6 @@
   --background-image: url("../images/cover-image-light.png");
 }
 
-.theme_light .hidden__light-theme {
+.page.theme_light .hidden__light-theme {
   opacity: 0;
 }

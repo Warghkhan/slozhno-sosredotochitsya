@@ -23,11 +23,12 @@
 .header {
   padding: 20px;
   width: 100vw;
+  height: 100vh;
 }
 
 .decorated-zone {
   position: relative;
-  height: 100%;
+  /*height: 100%;*/
   display: grid;
   align-self: flex-end;
 }
@@ -36,7 +37,9 @@
   display: flex;
   flex-direction: row;
   justify-content: center;
+  /*
   align-items: center;
+  */
 }
 
 .header__theme-menu-list {
@@ -95,7 +98,8 @@
 
 .main__title {
   display: grid;
-  margin-top: 273px;
+  /*margin-top: 15px;*/
+  margin-block-start: 274px;
   margin-left: -20px;
   color: var(--font-title-decorated-color);
   font-family: var(--main-font), sans-serif;
@@ -105,14 +109,29 @@
   line-height: 82.5%;
   letter-spacing: 0%;
   text-align: left;
+  align-items: center;
 }
 
 .with__shadow {
   text-shadow: 4px 4px 0 var(--accent-color);
 }
-/*временно, по возможности переписать через грид возможно?необходимо*/
+
 .in__header {
-  margin: 114px 0 114px 493px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /*
+  margin-block-end: 114px;
+  */
+  margin: 114px 0 286px 495px;
+  
+
+}
+
+
+
+.header__theme-menu-button_active {
+  pointer-events: none;
 }
 
 .bottom__rec {
@@ -137,7 +156,7 @@
   text-align: left;
 }
 
-.main__section {
+main {
   display: grid;
   margin-top: 60px;
   gap: 80px;
@@ -185,9 +204,6 @@
   display: grid;
   grid-column: span 2;
   grid-row: span 3;
-}
-
-.second__section > .sections__list {
   grid-template-columns: repeat(3, 1fr);
 }
 
@@ -253,11 +269,7 @@
 .image__list-item:nth-of-type(5) {
   grid-column: span 2;
 }
-/*
-body {
-  display: grid;
-}
-*/
+
 .footer {
   display: grid;
   position: relative;
@@ -302,20 +314,28 @@ body {
   bottom: 20px;
   left: 20px;
 }
-
+/*
 @media (max-width: 1024px) {
-  .header {
-    height: 768px;
-  }
+
+
 }
+*/
 /*
 @media (max-width: 768px) {
 }
 
 @media (max-width: 375px) {
 }
-
+*/
+/*
 @media (min-width: 1250px) {
+
+  .header {
+    padding: 20px;
+    width: 100vw;
+    height: 30vh;
+  }
+
   .header__theme-menu-button {
     font-size: 1vw;
     font-weight: 400;
@@ -356,5 +376,18 @@ body {
   .sections__list {
     grid-gap: 5vw;
   }
+
+  .footer {
+    display: grid;
+    position: relative;
+    width: 100vw;
+    height: 30vh;
+  }
+  .hidden__light-theme {
+    width: 5vw;
+    height: 5vh;
+  }
+
 }
 */
+
