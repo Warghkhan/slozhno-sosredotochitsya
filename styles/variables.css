@@ -13,12 +13,7 @@
   --background-image: url("../images/cover-image-dark.png");
 
   --main-font: IBM Plex Mono;
+
+  --padding: 20px;
+
 }
-
-/*
-
-.hidden__light-theme {
-  opacity: 1;
-}
-
-*/

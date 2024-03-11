@@ -76,6 +76,11 @@ a:focus {
   outline: 1px solid var(--content-text-color);
 }
 
+a:focus-visible {
+  line-height: 0;
+  outline: 1px solid var(--content-text-color);
+}
+
 h2 {
   color: var(--h2-font-color);
 }
