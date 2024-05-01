@@ -11,8 +11,7 @@
   --font-main-color: #000028;
   --content-text-color: #f1b2ce;
   --background-image: url("../images/cover-image-dark.png");
-
+  --border-accent-color: var(--accent-color);
   --main-font: IBM Plex Mono;
-
   --padding: 20px;
 }

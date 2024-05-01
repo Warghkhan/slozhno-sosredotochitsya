@@ -12,8 +12,8 @@
     --h2-font-color: var(--font-main-color);
     --font-main-color: #353430;
     --content-text-color: #353430;
-    /*images*/
     --background-image: url("../images/cover-image-light.png");
+    --border-accent-color: var(--font-main-color);
   }
 
   .hidden__light-theme {
@@ -28,7 +28,7 @@
   --h2-font-color: var(--font-main-color);
   --font-main-color: #353430;
   --content-text-color: #353430;
-  /*images*/
+  --border-accent-color: var(--font-main-color);
   --background-image: url("../images/cover-image-light.png");
 }
 
@@ -43,7 +43,7 @@
   --h2-font-color: var(--font-main-color);
   --font-main-color: #353430;
   --content-text-color: #353430;
-  /*images*/
+  --border-accent-color: var(--font-main-color);
   --background-image: url("../images/cover-image-light.png");
 }
 
