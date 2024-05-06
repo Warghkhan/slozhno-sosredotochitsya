@@ -49,9 +49,6 @@
   margin-right: calc(var(--padding) / 4);
   color: var(--accent-color);
   font-family: var(--main-font), sans-serif;
-  /*
-  font-size: 18px;
-  */
   font-size: 1.75vw;
   font-weight: 400;
   line-height: calc(var(--padding) * 1.25);
@@ -143,7 +140,6 @@
 
 .in__header {
   display: grid;
-  /*grid-column-start: 2;*/
   justify-content: flex-start;
   align-items: center;
   margin-left: calc(50vw - var(--padding));

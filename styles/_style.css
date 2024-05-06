@@ -115,8 +115,6 @@
   display: grid;
 
   margin-block-start: 277px;
-
-  /*margin-block-start: clamp (45vh, 47vh, 50vh);*/
   margin-left: -20px;
   color: var(--font-title-decorated-color);
   font-family: var(--main-font), sans-serif;
