@@ -17,9 +17,6 @@
     justify-content: flex-end;
     margin-block-start: 16.5vh;
     margin-inline-end: 0.9vh;
-    /*
-    margin-block-end: 3vh;
-    */
   }
 
   .header__theme-menu-list {
@@ -53,9 +50,6 @@
   }
 
   .section-header {
-    /*
-    font-size: 18px;
-    */
     font-size: 1.76vh;
     line-height: calc(var(--padding) * 1.2);
     font-weight: 700;
