@@ -89,9 +89,13 @@ h2 {
 p {
   color: var(--content-text-color);
   font-family: var(--main-font), sans-serif;
-  font-size: 18px;
   font-weight: 400;
+  /*
+  font-size: 18px;
   line-height: 23.4px;
+  */
+  font-size: 1.75vw;
+  line-height: 2.3vw;
   letter-spacing: 0%;
   text-align: left;
 }
