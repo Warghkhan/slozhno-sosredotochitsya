@@ -641,7 +641,7 @@ main {
   }
 
   main {
-    margin-top: calc(var(--padding) * 2.3);
+    margin-top: calc(var(--padding) * 2.9);
     gap: calc(var(--padding) * 3.9);
   }
 
