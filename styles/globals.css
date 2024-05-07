@@ -10,7 +10,6 @@ body {
   min-inline-size: 375px;
   max-inline-size: 1440px;
   margin: 0 auto;
-  width: 100vw;
 }
 
 h1,
@@ -21,7 +20,6 @@ h5,
 h6,
 p {
   margin: 0;
-  /*font-size: 18px;*/
 }
 
 ul {
@@ -44,58 +42,41 @@ a {
   padding-block: 0;
   padding-inline: 0;
 }
-
-button {
-  background-color: transparent;
-  outline-style: none;
-  border: none;
-  letter-spacing: 0%;
-  text-align: center;
-  text-transform: lowercase;
-  color: var(--accent-color);
-}
-
-button:hover {
-  outline: 1px solid var(--accent-color);
-}
-
-button:focus {
-  border-bottom: 1px solid var(--accent-color);
-}
-
-a,
-a:link {
+/*
+ul li a {
   outline: none;
   text-decoration: none;
-  text-shadow: 2px 2px 0 var(--accent-color);
+  text-shadow: 
+    calc(var(--padding) * 0.1) 
+    calc(var(--padding) * 0.1) 
+    0 
+    var(--accent-color);
 }
+
 a:hover {
   border-bottom: 1px solid var(--content-text-color);
 }
 a:focus {
-  line-height: 0;
   outline: 1px solid var(--content-text-color);
 }
 
 a:focus-visible {
-  line-height: 0;
   outline: 1px solid var(--content-text-color);
 }
-
+*/
+/*
 h2 {
   color: var(--h2-font-color);
 }
-
+*/
+/*
 p {
   color: var(--content-text-color);
-  font-family: var(--main-font), sans-serif;
+  font-family: var(--main-font), monospace;
   font-weight: 400;
-  /*
-  font-size: 18px;
-  line-height: 23.4px;
-  */
   font-size: 1.75vw;
   line-height: 2.3vw;
   letter-spacing: 0%;
   text-align: left;
 }
+*/

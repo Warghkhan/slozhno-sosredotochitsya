@@ -1,9 +1,10 @@
+/*
 @media (max-width: 768px) {
   :root {
     --padding: 2vh;
   }
 
-  p {
+  .article-content {
     font-size: 1.75vh;
     line-height: calc(var(--padding) * 1.13);
   }
@@ -39,9 +40,11 @@
     line-height: calc(var(--padding) * 1.2);
   }
 
-  .in__header {
+  .paragraph__in__header {
     margin-block-start: 16.6vh;
     margin-block-end: 16.6vh;
+    font-size: 1.75vh;
+    line-height: calc(var(--padding) * 1.2);
   }
 
   main {
@@ -75,3 +78,4 @@
     margin-block-start: 0;
   }
 }
+*/
