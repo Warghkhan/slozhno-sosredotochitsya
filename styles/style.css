@@ -66,6 +66,8 @@
   display: grid;
   padding: var(--padding);
   width: 100%;
+  /*свойство для прохождения автотестов на Github*/
+  height: 100vh;
   min-height: 100vh;
   position: relative;
 }
@@ -89,8 +91,9 @@
   text-align: center;
   width: 7.11vw;
   height: 2.53vh;
-
+  /*
   background-color: transparent;
+  */
   outline-style: none;
   border: none;
   text-align: center;
