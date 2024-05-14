@@ -68,7 +68,7 @@
   padding: var(--padding);
   width: 100%;
   /*начало: свойство для прохождения автотестов на Github*/
-  /*height: 100vh;*/
+  height: 100vh;
   /*конец: свойство для прохождения автотестов на Github*/
   min-height: 100vh;
   position: relative;
@@ -101,9 +101,7 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid var(--accent-color);
-  /*не понимаю комментарий, надеюсь верно*/
-  border-color: transparent;
+  outline: 1px solid var(--hover-outline-color);
   outline-offset: 0.2rem;
 }
 
@@ -428,7 +426,6 @@
   }
 
   .hidden__light-theme {
-    position: absolute;
     top: calc(var(--padding) * 1.1);
     right: calc(var(--padding) * 1.1);
     margin-right: var(--padding);
@@ -442,7 +439,6 @@
   }
 
   .header__theme-menu {
-    justify-content: right;
     margin-block-start: 2.9vw;
     margin-inline-end: 0.7vw;
   }
@@ -476,10 +472,8 @@
   .main__title {
     display: flex;
     margin-block-start: 19.5vw;
-    margin-left: 0;
+    margin-inline-start: 0;
     font-size: 17.35vh;
-    text-align: left;
-    align-items: center;
   }
 
   .paragraph__in__header {
@@ -489,20 +483,11 @@
     line-height: 6.24vw;
   }
 
-  .header__theme-menu-button_active {
-    pointer-events: none;
-  }
-
   .decorated-zone::after {
-    content: "";
-    position: absolute;
-    border-bottom: 1px solid var(--border-accent-color);
-    border-left: 1px solid var(--border-accent-color);
     width: calc(var(--padding) * 2.5);
     height: calc(var(--padding) * 2.5);
     bottom: calc(var(--padding) * 1.1);
     left: calc(var(--padding) * 1.1);
-    opacity: 1;
   }
 
   .main__content {

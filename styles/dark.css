@@ -29,6 +29,7 @@
   --accent-color: #ff0070;
   --background-color: #000028;
   --font-title-decorated-color: #db00ff;
+  --hover-outline-color: rgba(255, 0, 112, 0.4);
   --h2-font-color: var(--accent-color);
   --font-main-color: var(--background-color);
   --content-text-color: #f1b2ce;

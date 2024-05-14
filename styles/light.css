@@ -25,6 +25,7 @@
   --accent-color: #ff8dcb;
   --background-color: #fff1f7;
   --font-title-decorated-color: #ffc2e6;
+  --hover-outline-color: rgba(50, 49, 45, 0.4);
   --h2-font-color: var(--font-main-color);
   --font-main-color: #353430;
   --content-text-color: var(--font-main-color);
@@ -40,6 +41,7 @@
   --accent-color: #ff8dcb;
   --background-color: #fff1f7;
   --font-title-decorated-color: #ffc2e6;
+  --hover-outline-color: rgba(50, 49, 45, 0.4);
   --h2-font-color: var(--font-main-color);
   --font-main-color: #353430;
   --content-text-color: var(--font-main-color);
