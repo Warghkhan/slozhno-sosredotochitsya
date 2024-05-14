@@ -15,3 +15,15 @@
   --main-font: "IBM Plex Mono";
   --padding: 2.75vh;
 }
+
+@media (max-width: 768px) {
+  :root {
+    --padding: 2vh;
+  }
+}
+
+@media (max-width: 376px) {
+  :root {
+    --padding: 2.66vw;
+  }
+}
