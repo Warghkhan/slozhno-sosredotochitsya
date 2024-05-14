@@ -68,7 +68,7 @@
   padding: var(--padding);
   width: 100%;
   /*начало: свойство для прохождения автотестов на Github*/
-  height: 100vh;
+  /*height: 100vh;
   /*конец: свойство для прохождения автотестов на Github*/
   min-height: 100vh;
   position: relative;
