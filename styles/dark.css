@@ -5,6 +5,19 @@
 */
 
 @media (prefers-color-scheme: dark) {
+  :root {
+    --accent-color: #ff0070;
+    --background-color: #000028;
+    --font-title-decorated-color: #db00ff;
+    --hover-outline-color: #ff007066;
+    --h2-font-color: var(--accent-color);
+    --font-main-color: var(--background-color);
+    --content-text-color: #f1b2ce;
+    --border-accent-color: var(--accent-color);
+    --header-theme-menu-content-color: var(--accent-color);
+    --background-image: url("../images/cover-image-dark.png");
+  }
+
   .page.theme_dark {
     /* сохраните этот селектор в приведённом виде.
       Так стили написанные ниже будут иметь больший вес,
@@ -13,10 +26,12 @@
     --accent-color: #ff0070;
     --background-color: #000028;
     --font-title-decorated-color: #db00ff;
+    --hover-outline-color: #ff007066;
     --h2-font-color: var(--accent-color);
     --font-main-color: var(--background-color);
     --content-text-color: #f1b2ce;
     --border-accent-color: var(--accent-color);
+    --header-theme-menu-content-color: var(--accent-color);
     --background-image: url("../images/cover-image-dark.png");
   }
 
@@ -29,11 +44,12 @@
   --accent-color: #ff0070;
   --background-color: #000028;
   --font-title-decorated-color: #db00ff;
-  --hover-outline-color: rgba(255, 0, 112, 0.4);
+  --hover-outline-color: #ff007066;
   --h2-font-color: var(--accent-color);
   --font-main-color: var(--background-color);
   --content-text-color: #f1b2ce;
   --border-accent-color: var(--accent-color);
+  --header-theme-menu-content-color: var(--accent-color);
   --background-image: url("../images/cover-image-dark.png");
 }
 
@@ -45,10 +61,12 @@
   --accent-color: #ff0070;
   --background-color: #000028;
   --font-title-decorated-color: #db00ff;
+  --hover-outline-color: #ff007066;
   --h2-font-color: var(--accent-color);
   --font-main-color: var(--background-color);
   --content-text-color: #f1b2ce;
   --border-accent-color: var(--accent-color);
+  --header-theme-menu-content-color: var(--accent-color);
   --background-image: url("../images/cover-image-dark.png");
 }
 
